@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:rgb(255, 0, 242);
+    font-family: 'Arial', sans-serif;
+    flex-direction: column;
+}  
+
+
+     .container {
+    text-align: center;
+  }
+
+
+ h1 {
+
+    font-size: 2.5em;
+    color: rgba(255, 0, 234, 0.753);
+ }
+ .button{
+    margin: 40px;
+}
+
+.yes-button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #4caf50;
+    color: rgb(255, 108, 108);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  
+  }
+
+
+  .no-button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #26fdf2;
+    color: rgb(78, 249, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  
+  }
+.gif_container img {
+
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+       margin-top: 20px;
+}
+
+  
